@@ -1,0 +1,720 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+hr{
+    border: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* NAV-BAR */
+
+#brand-logo{
+    display: inline-block
+}
+
+.brand{
+    border-right: 1px solid #1c4980;
+    padding-right: 5px;
+    vertical-align: middle;
+}
+
+.brand-aim{
+    display: block;
+    position: relative;
+    top: 10px;
+    font-family: "Inter",sans-serif;
+    color: #1c4980;
+}
+
+.brand-aim p{
+    font-weight: thin;
+    font-size: 10px;
+}
+
+.brand-aim strong{
+    font-size: 13px;
+}
+
+.logo{
+    display: block;
+    height: 32px;
+    width: 82px;
+    margin-left: 10px;
+    
+}
+
+nav{
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu{
+    position: relative;
+    top: 5px;
+    margin-left: auto;
+    margin-right: 6vw;
+    vertical-align: middle;
+}
+
+.menu ul li{
+    list-style: none;
+    display: inline-flex;
+    padding: 0 9px;
+}
+
+.main button{
+    border: 0;
+    padding: 7px 13px;
+    margin-top: 10px;
+    border-radius: 360px;
+    background-color: blue;
+    color: white;
+}
+
+/* .icon{
+        background-color: white;
+        border-radius: 50%;
+        border: 1px solid grey;
+        padding: 10px;
+} */
+
+.search{
+    margin-left: 2%;
+    position: relative;
+    top: 2px;
+
+}
+
+.search i{
+    vertical-align: middle;
+    margin-left: 2px;
+}
+
+.search input[type=text]{
+    width:20vw;
+    height:34px;  
+    margin: 0;
+    border-style:none ;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 0 10px 0 5px;
+    outline: none;
+    color: #1c4980e6;
+}
+
+.box{
+    display: inline-block;
+    border-radius: 8px;
+    border: 1px solid;
+    padding-left: 5px;
+    color: #1c4980e6;
+    
+}
+
+.right-icons-div
+{
+    height: 55px;
+    margin-left: 80px;
+    width:45vh;
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+}
+
+.icon-size
+{
+    text-align: center;
+}
+
+.icon-size:hover
+{
+    border-bottom: 4px solid #3e6493;
+    cursor: pointer;
+    transition: .1s;
+    color: #3e6493;
+}
+
+.icon-text
+{
+    margin-top: 0px;
+    font-size: 11px;
+    font-family: "Inter",sans-serif!important;
+}
+
+/* CONTENT-1 */
+
+.content-1{
+    max-width: 1180px;
+    margin: 0 auto;
+    font-family: "Inter",sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.description1{
+    padding: 100px 0;
+    max-width: 525px;
+}
+
+.connect span{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #1c4980;
+}
+
+.connect p{
+    color: #1c4980;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+}
+
+.explore p{
+    padding-top: 15px;
+    color: #1c4980;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    margin: 0;
+}
+
+.choice1{
+    max-width: 425px;
+    max-height: 345px;
+    margin:100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    padding-bottom: 10px;
+
+}
+.item{
+    height: 152px;
+    width: 121px;
+    max-width: 100%;
+    box-sizing: inherit;
+    background-color: white;
+    display: block;
+    border-radius: 20px;
+    position: relative;
+    top:0;
+    transition: top ease 0.5s;    
+}
+
+.item:hover{
+    top: -8px
+}
+
+.content-1 img{
+    height: 152px;
+    width: 121px;
+    border-radius: 20px;
+}
+
+.choice1 span{
+    font-size: 15px;
+    color: #1c4980;
+    position: relative;
+    font-weight: 600;
+    line-height: 22px;
+    z-index: 1;
+    top: 10px;
+    left: 10px;
+    display: block;
+
+}
+
+.learn{
+    background-image: url(https://cdn.unstop.com/uploads/images/home/home-hero-learn.png?d=324x406);
+    background-size: cover;
+}
+
+.practice{
+    background-image: url(https://cdn.unstop.com/uploads/images/home/home-hero-practice.png?d=324x406);
+    background-size: cover;
+}
+
+.mentor{
+    background-image: url(https://cdn.unstop.com/uploads/images/home/home-hero-mentorships.png?d=324x406);
+    background-size: cover;
+}
+
+.compete{
+    background-image: url(https://cdn.unstop.com/uploads/images/home/home-hero-compete.png?d=324x406);
+    background-size: cover;
+}
+
+.jobs{
+    background-image: url(https://cdn.unstop.com/uploads/images/home/home-hero-jobs.png?d=324x406);
+    background-size: cover;
+
+}
+
+.blogs{
+    background-image: url(https://cdn.unstop.com/uploads/images/home/home-hero-blogs.png?d=324x406);
+    background-size: cover;
+
+}
+
+/* carousel 1 */
+
+.industry{
+    width: 100%;
+    color: #1c4980;
+    height: 120px;
+
+}
+
+.left-industry{
+    
+    display: block;
+    padding: 40px;
+    float: left;
+    height: 120px;
+}
+
+.right-industry img{
+    height: 50px;
+    width: 125px;
+}
+
+.right-industry{
+    height: 120px;
+    padding: 40px;
+}
+
+.company-name{
+    margin-left: 50px;
+    vertical-align: middle;
+}
+
+
+/* carousel 2 */
+
+#testimonial-carousel{
+    text-align: center;
+    height: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.testimonial-image{
+    width: 80%;
+    height: 200px;
+}
+
+.carousel-item{
+    height: 200px;
+    padding: auto 0;
+}
+
+/* content-2 */
+
+.content-2{
+    max-width: 1600px;
+    width: 100%;
+    height: 267px;
+    margin: 100px 0;
+}
+
+.choice2{
+    height: 267px;
+    width: 1180px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;   
+}
+
+.choice2 span{
+    display: block;
+    position: relative;
+    margin-top: 210px;
+            
+}
+
+.item1{
+    height: 267px;
+    width: 373px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    top:0;
+    transition: top ease 0.5s;    
+}
+
+.item1:hover{
+    top: -8px
+}
+
+.learn1{
+    background-image: url(https://cdn.unstop.com/uploads/images/home/learn-bg-image.png?d=747x534);
+    background-size: cover;font-weight: 600;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 28px;
+    position: relative;
+    color: #154177;
+}
+
+.practice1{
+    background-image: url(https://cdn.unstop.com/uploads/images/home/practice-bg-image.png?d=747x533);
+    background-size: cover;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 28px;
+    position: relative;
+    color: #562f95;
+}
+
+.mentor1{
+    background-image: url(https://cdn.unstop.com/uploads/images/home/mentorships-bg-new.png?d=747x534);
+    background-size: cover;
+    font-weight: 600;
+    border-radius: 20px;
+    font-size: 28px;
+    position: relative;
+    color: #966d00;
+}
+
+/* Content-3 */
+
+.content-3{
+    margin: 50px;
+}
+
+.oppor h3{
+    font-weight: 600;
+    font-size: 28px;
+    color: #1c4980;
+    margin-bottom: 10px;
+}
+
+.part p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #1c4980;
+    display: block;
+    margin-top: 5px;
+}
+
+.choice3{
+    width: 1200px;
+    height: 194px;
+    margin: 10px auto 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.item2{
+    width: 280px;
+    height: 167px;
+    position: relative;
+    display: block;
+    text-align: left;
+    margin: auto auto;
+    border-radius: 20px;
+    top:0;
+    transition: top ease 0.5s;    
+}
+
+.item2:hover{
+    top: -8px
+}
+
+.college{
+    background-image: url(https://cdn.unstop.com/uploads/images/compete/student.png?d=560x340);
+    background-size: cover;
+    position: relative;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #61180c;
+    display: block;
+
+}
+
+.prof{
+    background-image: url(https://d8it4huxumps7.cloudfront.net/uploads/images/63d112f8a025d_professional.png?d=560x340);
+    background-size: cover;
+    position: relative;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #685200;
+    display: block;
+}
+
+.team{
+    background-image: url(https://d8it4huxumps7.cloudfront.net/uploads/images/63da479e86649_teams_new.png?d=560x340);
+    background-size: cover;
+    position: relative;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #1c4980;
+    display: block;
+
+}
+
+.indi{
+    background-image: url(https://d8it4huxumps7.cloudfront.net/uploads/images/63da47fe2c821_solo_new.png?d=560x340);
+    background-size: cover;
+    position: relative;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #61180c;
+    display: block;
+}
+
+.choice3 span{
+    display: block;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+/* content-4 */
+
+.content-4{
+    margin: 50px;
+}
+
+.hired h3{
+    font-weight: 600;
+    font-size: 28px;
+    color: #1c4980;
+    margin-bottom: 10px;
+}
+
+.work p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #1c4980;
+    display: block;
+    margin-top: 5px;
+}
+
+.choice4{
+    width: 1200px;
+    height: 194px;
+    margin: 10px auto 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.item3{
+    width: 280px;
+    height: 167px;
+    position: relative;
+    display: block;
+    text-align: left;
+    margin: auto auto;
+    border-radius: 20px;
+    top:0;
+    transition: top ease 0.5s;    
+}
+
+.item3:hover{
+    top: -8px
+}
+
+.full{
+    background-image: url(https://cdn.unstop.com/uploads/images/home/job.png?d=570x340);
+    background-size: cover;
+    position: relative;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #1c4980;
+    display: block;
+
+}
+
+.time{
+    background-image: url(https://cdn.unstop.com/uploads/images/home/internship.png?d=570x340);
+    background-size: cover;
+    position: relative;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #1c4980;
+    display: block;
+}
+
+.hire{
+    background-image: url(https://cdn.unstop.com/uploads/images/home/hiring-challenges.png?d=570x340);
+    background-size: cover;
+    position: relative;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #61180c;
+    display: block;
+
+}
+
+.paid{
+    background-image: url(https://cdn.unstop.com/uploads/images/home/paid-internship.png?d=570x340);
+    background-size: cover;
+    position: relative;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #1c4980;
+    display: block;
+}
+
+.choice4 span{
+    display: block;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+/* content-5 */
+
+
+.content-5{
+    margin: 50px 0;
+    height: 527px;
+    max-width: 1600px;
+    width: 100%;
+}
+
+.description4{
+    margin: 0 0 30px 100px;
+    color: #1c4980;
+}
+
+.content-5 .num{
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 42px;
+    vertical-align: middle;
+}
+
+.stat{
+    height: 444px;
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.stat1{
+    width: 100%;
+    height: 222px;
+    margin-left: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+.stat2{
+    width: 100%;
+    height: 222px;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+/* carousel 3 */
+
+.carousel-3{
+    max-width: 1600px;
+    width: 100%;
+    height: 490px;
+    margin: 50px 0;
+}
+
+.fit{
+    width: 1250px;
+    height: 490px;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: 1px solid rgb(233, 233, 233);
+}
+
+.description5{
+    padding-top: 10px;
+    padding-left: 30px;
+    font-weight: 600;
+    font-size: 28px;;
+    color: #1c4980;
+}
+
+
+/* content-6 */
+
+.content-6{
+    max-width: 1600px;
+    width: 100%;
+    height: 460px;
+    margin: 50px 0;
+    
+}
+
+.pic{
+    width: 1180px;
+    height: 456px;
+    background-image: url(https://d8it4huxumps7.cloudfront.net/uploads/images/63db3ac0bfbd4_download_app_new.png?d=2360x912);
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.down1{
+    position: relative;
+    display: block;
+    top: 320px;
+    left: 370px;
+}
+
+.down2{
+    position: relative;
+    display: block;
+    top: 240px;
+    left: 580px;
+}
+
+/* footer */
+.footer{
+    width: 80%;
+    margin: 5px auto;
+    text-align: center;
+    line-height: 0px;
+}
+
+.para-items{
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+.img-footer{
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+
+}
+
+.footer-items{
+    margin: 0px auto;
+    display: flex;
+    font-size: 30px;
+   justify-content: center;
+   
+}
